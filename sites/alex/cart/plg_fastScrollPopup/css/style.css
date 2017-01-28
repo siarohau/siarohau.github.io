@@ -4,7 +4,7 @@
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 
-	padding:74px 60px 30px 60px;
+	padding:49px 60px 30px 60px;
 }
 
 .ff-close-button {
@@ -12,6 +12,10 @@
 	top:10px;
 	right:10px;
 	color: grey;
+}
+
+.ff-form-block{
+	margin-bottom: 20px;
 }
 
 .ff-title-block,
@@ -55,7 +59,7 @@
 /* titles */
 .ff-first-title {
 	/* font:bold 32px/36px Arial, Helvetica, sans-serif; */
-	font:bold 27px/36px Arial, Helvetica, sans-serif;
+	font:bold 24px/36px Arial, Helvetica, sans-serif;
 	color:#000;
 	text-align:left;
 	text-transform: none;
@@ -117,9 +121,11 @@
 
 /* benefits*/
 .ff-benefits-title {
+	display: block;
 	margin-bottom: 10px;
 	font: bold 20px/20px Arial, Helvetica, sans-serif;
-	font-size: 20px;
+	/* font-size: 20px; */
+	font-size: 18px;
 }
 
 .ff-benefits p {
@@ -132,7 +138,7 @@
 }
 
 .ff-phone-block .ff-phone-message {
-	margin-top: 5px;
+	margin-top: 10px;
 	text-align: center;
 	font-size: 20px;
 	color: gray;
