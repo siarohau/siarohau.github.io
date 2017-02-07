@@ -1,0 +1,3147 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://ru.surveymonkey.com/r/NSGQX93 -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Тест для кандидатов в асессоры (Украина, Беларусь, Казахстан) Survey</title>
+    <script type="text/javascript" src="./Тест для кандидатов в асессоры (Украина, Беларусь, Казахстан) Survey_files/750e9545e9"></script><script src="./Тест для кандидатов в асессоры (Украина, Беларусь, Казахстан) Survey_files/nr-943.min.js"></script><script async="" src="./Тест для кандидатов в асессоры (Украина, Беларусь, Казахстан) Survey_files/analytics.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwUPVVJXGwcDUlVRAgY="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(14),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,-1!==o.indexOf("dev")&&(s.dev=!0),-1!==o.indexOf("nr_dev")&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f?f.apply(this,a(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(15),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7);t("loader").features.stn=!0,t(6);var c=NREUM.o.EV;o.on("fn-start",function(t,e){var n=t[0];n instanceof c&&(this.bstStart=Date.now())}),o.on("fn-end",function(t,e){var n=t[0];n instanceof c&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on("fn-end",function(t,e){i("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),s.on("fn-start",function(){this.bstStart=Date.now()}),s.on("fn-end",function(t,e){i("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on("pushState-start",function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on("pushState-end",function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(t){i("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(t){i("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",r,!1),document.addEventListener("keypress",r,!1),document.addEventListener("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(16)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(16)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(16)(r);e.exports=r,o.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(16)(i);e.exports=i,a.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),a.inPlace(window,["setInterval"],"setInterval-"),a.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),i.on("setInterval-start",r),i.on("setTimer-start",o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",s)}function i(t){w.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<w.length;t++)r([],w[t]);w.length&&(w=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(16)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],w=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;l>r;r++)t.removeEventListener(d[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return i(r)}function i(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}function a(t,e){var n=f(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(11),u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(13),m=window.XMLHttpRequest;s.features.xhr=!0,t(9),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||10>h)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},a(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var a=i(r);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;l>s;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(t,e){return function(){o(t,[(new Date).getTime()].concat(a(arguments)),null,e)}}var o=t("handle"),i=t(14),a=t(15);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(s,function(t,e){newrelic[e]=r(f+e,"api")}),i(c,function(t,e){newrelic[e]=r(f+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),o("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],14:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],15:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],16:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(15),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);var u=f[v[n]];return u&&u.push([w,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",v[n]=e,e in f||(f[e]=[])})}var m={},v={},w={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return w}function i(){return new r}var a="nr@context",s=t("gos"),c=t(14),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!m++){var t=h.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(l,function(e,n){t[e]||(t[e]=n)});var n="https"===d.split(":")[0]||t.sslForHttp;h.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=h.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(14),f=window,u=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var d=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-943.min.js"},p=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),h=e.exports={offset:a(),origin:d,features:{},xhrWrappable:p};u.addEventListener?(u.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(u.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),s("mark",["firstbyte",a()],null,"api");var m=0},{}]},{},["loader",2,10,4,3]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":1,"licenseKey":"750e9545e9","agent":"","transactionName":"blABZhZZVkdUBhdbXVcaJUcKW0xdWgtMQFdKRQxcF11PUVdLFVtXTkZNQAFLSFtbFgYIW1dRBko=","applicationID":"4364357","errorBeacon":"bam.nr-data.net","applicationTime":947}</script>
+    <meta name="keywords" content="questionnaire, questionnaires, questionaire, questionaires, free online survey, free online surveys">
+    
+        <meta name="description" content="Web survey powered by SurveyMonkey.com. Create your own online survey now with SurveyMonkey&#39;s expert certified FREE templates.">
+    
+    
+        <link rel="image_src" href="https://secure.surveymonkey.com/smassets/responseweb/smlib.globaltemplates/1.14.2/assets/sm_logo_fb.png">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"><meta http-equiv="content-language" content="ru"><meta name="google-site-verification" content="T6bFSmsnquJ-zUSMV3Kku9K413VJ80KjprWnV_Bv5lw">
+    <!--[if lt IE 9]>
+        <script src="https://secure.surveymonkey.com/smassets/responseweb/smlib.ui-html5-bundle-min.a7370863.js" 
+    ></script>
+    <![endif]-->
+    
+    <!--[if (gt IE 8)|(!IE)]><!-->
+      <link type="text/css" rel="stylesheet" href="./Тест для кандидатов в асессоры (Украина, Беларусь, Казахстан) Survey_files/smlib.surveytemplates-survey_fonts-bundle-min.6eb7cf7e.css">
+    <!--<![endif]-->
+    
+    
+        <link type="text/css" rel="stylesheet" href="./Тест для кандидатов в асессоры (Украина, Беларусь, Казахстан) Survey_files/responseweb-base-bundle-min.8fd123e7.css">
+        <link type="text/css" rel="stylesheet" href="./Тест для кандидатов в асессоры (Украина, Беларусь, Казахстан) Survey_files/smlib.surveytemplates-survey_page-bundle-min.33540646.css">
+        
+            <link id="themeCssLink" rel="stylesheet" href="./Тест для кандидатов в асессоры (Украина, Беларусь, Казахстан) Survey_files/3.0.21_1554481_7750d16d-b129-48e2-8e5d-68af9b610caf.css">
+        
+    
+    
+    
+    
+<link rel="shortcut icon" href="https://ru.surveymonkey.com/favicon1.ico">
+    <script src="./Тест для кандидатов в асессоры (Украина, Беларусь, Казахстан) Survey_files/jquery.min.js"></script>
+    
+    <script>window.jQuery || document.write('<script src=https://secure.surveymonkey.com/smassets/responseweb/responseweb-jquery-bundle-min.e912c94c.js><\/script>')</script>
+    
+        <script src="./Тест для кандидатов в асессоры (Украина, Беларусь, Казахстан) Survey_files/responseweb-response-bundle-min.cd6ed932.js"></script>
+    
+    
+    
+    
+    <script>
+        document.domain = 'surveymonkey.com';
+    </script>
+    
+<link rel="canonical" href="https://ru.surveymonkey.com/r/NSGQX93"></head>
+
+  <!--[if lt IE 7 ]>
+  <body id="patas" class="translate survey-body ie ie6">
+  <![endif]-->
+  <!--[if IE 7 ]>
+  <body id="patas" class="translate survey-body ie ie7">
+  <![endif]-->
+  <!--[if IE 8 ]>
+  <body id="patas" class="translate survey-body ie ie8">
+  <![endif]-->
+  <!--[if IE 9 ]>
+  <body id="patas" class="translate survey-body ie ie9">
+  <![endif]-->
+  <!--[if gt IE 9]>
+  <body id="patas" class="translate survey-body ie modern-browser">
+  <![endif]-->
+  <!--[if (gt IE 9)|(!IE)]><!-->
+  <body id="patas" class="translate survey-body modern-browser">
+  <!--<![endif]-->
+        
+    
+    
+    
+
+
+<!-- Textured Paper, Seamless Paper Texture and Escheresque are from subtlepatterns.com. Made available under CC BY-SA 3.0 License: http://creativecommons.org/licenses/by-sa/3.0/legalcode. -->
+<!-- You cannot remove or modify any notice of copyright, trademark or other proprietary right, or any other copyright management information or metadata from wherever it is embedded in the content. -->
+<article class="survey-page survey-page-white ">
+
+    <header class="survey-page-header">
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="survey-title-container clearfix
+                survey-title-align-left has-survey-title ">
+        
+            
+        
+        
+            
+    
+
+        
+        <div class="survey-title-table-wrapper">
+        
+            <table role="presentation" class="survey-title-table table-reset">
+                <tbody>
+                    <tr>
+                        
+                        
+                            <td class="survey-title-cell">
+                                <h1 class="survey-title user-generated notranslate">
+                                    <span class="title-text">
+                                        Тест для кандидатов в асессоры (Украина, Беларусь, Казахстан)
+                                    </span>
+                                </h1>
+                            </td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        
+
+        
+        </div>
+    </div>
+
+
+
+
+    <div class="page-title-container clearfix">
+        
+            
+            <div class="notranslate">
+                <h2 class="page-title-wrapper clearfix">
+                    <span class="page-number">
+                    
+                        2.
+                    
+                    </span>
+
+                    <span class="page-title user-generated">
+                    
+                        Прочтите небольшой текст и ответьте, верны ли утверждения, относящиеся к нему:
+                    
+                    </span>
+                </h2>
+            </div>
+        
+        
+    </div>
+
+        
+    </header>
+    <section class="survey-page-body">
+
+        
+
+        
+
+        <form name="surveyForm" action="https://ru.surveymonkey.com/r/NSGQX93" method="post" enctype="multipart/form-data" novalidate="" data-survey-page-form="">
+            
+	
+
+
+            
+                <div class="questions clearfix">
+
+    
+
+        <div class="question-row clearfix
+                   "><div data-question-type="presentation_descriptive_text" class="question-container
+    
+    ">
+
+    <div id="question-field-921841453" data-qnumber="1" data-question-id="921841453" class=" question-presentation-text qn question descriptive_text">
+        
+        
+    <div class="question-body-font-theme user-generated">1. Музыкальная гармония по сути своей есть проекция общего понятия гармонии на область звуковысотных отношений, которая заключает наиболее специфичные для музыки (то есть отличающие ее от других видов искусств) художественные средства. Поэтому гармония в музыке имеет дело с качественными отношениями между звуками по высоте. Сущность же музыкальной гармонии — упорядочивание звуковысотных отношений, образование благозвучия. Можно сказать иначе: гармония — это техника (искусство) благозвучия. Подобное упорядочивание касается, естественно, не только отношений между звуковыми высотами в одновременности (гармоническая вертикаль), но также и в их последовании (гармоническая горизонталь). (Источник: Холопов Ю. Н. Гармония: Теоретический курс: Учебник. — СПб.: Издатель­ство «Лань», 2003. - 544 с.)</div>
+
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841454" data-qnumber="2" data-question-id="921841454" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841454" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Музыкальная гармония имеет дело только с созвучиями, сочетаниями звуков в одновременности.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841454_9929698065" name="921841454" type="radio" class="radio-button-input" value="9929698065">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841454_9929698065">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841454_9929698066" name="921841454" type="radio" class="radio-button-input" value="9929698066">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841454_9929698066">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841454_9929698067" name="921841454" type="radio" class="radio-button-input" value="9929698067">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841454_9929698067">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841455" data-qnumber="3" data-question-id="921841455" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841455" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Cуществуют благозвучные и неблагозвучные сочетания.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841455_9929698069" name="921841455" type="radio" class="radio-button-input" value="9929698069">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841455_9929698069">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841455_9929698070" name="921841455" type="radio" class="radio-button-input" value="9929698070">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841455_9929698070">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841455_9929698071" name="921841455" type="radio" class="radio-button-input" value="9929698071">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841455_9929698071">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="presentation_descriptive_text" class="question-container
+    
+    ">
+
+    <div id="question-field-921841457" data-qnumber="4" data-question-id="921841457" class=" question-presentation-text qn question descriptive_text">
+        
+        
+    <div class="question-body-font-theme user-generated">2. Skyrim сохраняет концепцию большого и открытого мира, характерную для серии Elder Scrolls. Игрок может свободно странствовать по всей территории провинции Скайрим, включающей в себя пять крупных городов, множество мелких селений, а также обширные пространства диких земель и высоких гор. В городах игрок может предаваться таким занятиям, как приготовление пищи, фермерство (сбор урожаев с ферм их хозяев, после чего возможна продажа и/или использование собранных ингредиентов в своих целях), работа с рудой или кузнечное дело. Также в крупных городах (и не только) можно найти себе подходящего учителя для прокачивания той или иной способности. При этом разработчики отмечают, что игровой процесс может занять около 300 часов. (Источник: http://ru.elderscrolls.wikia.com/wiki/The_Elder_Scrolls_V:_Skyrim)<br><br></div>
+
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841458" data-qnumber="5" data-question-id="921841458" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841458" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Игрок может стать кузнецом.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841458_9929698080" name="921841458" type="radio" class="radio-button-input" value="9929698080">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841458_9929698080">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841458_9929698081" name="921841458" type="radio" class="radio-button-input" value="9929698081">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841458_9929698081">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841458_9929698082" name="921841458" type="radio" class="radio-button-input" value="9929698082">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841458_9929698082">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841459" data-qnumber="6" data-question-id="921841459" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841459" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Игра в любом случае займёт не менее 300 часов.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841459_9929698084" name="921841459" type="radio" class="radio-button-input" value="9929698084">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841459_9929698084">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841459_9929698085" name="921841459" type="radio" class="radio-button-input" value="9929698085">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841459_9929698085">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841459_9929698086" name="921841459" type="radio" class="radio-button-input" value="9929698086">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841459_9929698086">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="presentation_descriptive_text" class="question-container
+    
+    ">
+
+    <div id="question-field-921841460" data-qnumber="7" data-question-id="921841460" class=" question-presentation-text qn question descriptive_text">
+        
+        
+    <div class="question-body-font-theme user-generated">3. По словам Онищенко, в России произошел значительный рост числа острых респираторных заболеваний. "В целом по России заболеваемость ОРЗ находится на допороговых уровнях, но рост, по сравнению с предыдущей неделей, произошел значительный - 60-40% в каждом регионе», - сообщил Онищенко. В пяти регионах, например в Ханты-Мансийске, уровень заболеваемости превысил эпидемический порог. "Дети отдыхали, дети были в разных регионах страны, были за рубежом, и снова сели за парты, собрались в классах. Естественно, началось проэпидемичивание", - сказал глава Роспотребнадзора. То есть подъем уровня ОРЗ в начале осени – это нормальное явление. "Мы сейчас готовимся к новому сезону гриппа", - сказал Онищенко. Минздравом РФ закуплено 33 млн 329 тыс доз вакцины, из которых почти 13 млн - детские. (Источник: http://www.interfax.ru/txt.asp?id=265258)<br><br></div>
+
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841461" data-qnumber="8" data-question-id="921841461" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841461" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Ни в одном регионов России не зафиксирована эпидемия гриппа.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841461_9929698090" name="921841461" type="radio" class="radio-button-input" value="9929698090">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841461_9929698090">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841461_9929698091" name="921841461" type="radio" class="radio-button-input" value="9929698091">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841461_9929698091">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841461_9929698092" name="921841461" type="radio" class="radio-button-input" value="9929698092">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841461_9929698092">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841462" data-qnumber="9" data-question-id="921841462" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841462" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">В Ханты-Мансийске самый высокий уровень заболеваемости по стране.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841462_9929698094" name="921841462" type="radio" class="radio-button-input" value="9929698094">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841462_9929698094">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841462_9929698095" name="921841462" type="radio" class="radio-button-input" value="9929698095">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841462_9929698095">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841462_9929698096" name="921841462" type="radio" class="radio-button-input" value="9929698096">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841462_9929698096">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="presentation_descriptive_text" class="question-container
+    
+    ">
+
+    <div id="question-field-921841463" data-qnumber="10" data-question-id="921841463" class=" question-presentation-text qn question descriptive_text">
+        
+        
+    <div class="question-body-font-theme user-generated">4. Хулиганство, то есть грубое нарушение общественного порядка, выражающее явное неуважение к обществу, совершенное: а) с применением оружия или предметов, спользуемых в качестве оружия; б) по мотивам политической, идеологической, расовой, национальной или религиозной ненависти или вражды либо по мотивам ненависти или вражды в отношении какой-либо социальной группы, наказывается штрафом в размере от трехсот тысяч до пятисот тысяч рублей или в размере заработной платы или иного дохода осужденного за период от двух до трех лет, либо обязательными работами на срок от ста восьмидесяти до двухсот сорока часов, либо исправительными работами на срок до двух лет, либо лишением свободы на срок до пяти лет. То же деяние, совершенное группой лиц по предварительному сговору или организованной группой либо связанное с сопротивлением представителю власти либо иному лицу, исполняющему обязанности по охране общественного порядка или пресекающему нарушение общественного порядка, наказывается штрафом в размере от пятисот тысяч до одного миллиона рублей или в размере заработной платы или иного дохода осужденного за период от трех до четырех лет либо лишением свободы на срок до семи лет. (Источник: Уголовный кодекс Российской Федерации, ст. 213)</div>
+
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841464" data-qnumber="11" data-question-id="921841464" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841464" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Негрубое нарушение общественного порядка не является хулиганством.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841464_9929698100" name="921841464" type="radio" class="radio-button-input" value="9929698100">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841464_9929698100">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841464_9929698101" name="921841464" type="radio" class="radio-button-input" value="9929698101">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841464_9929698101">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841464_9929698102" name="921841464" type="radio" class="radio-button-input" value="9929698102">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841464_9929698102">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841465" data-qnumber="12" data-question-id="921841465" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841465" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Максимальное наказание, которое можно понести за хулиганство, - лишение свободы сроком на семь лет.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841465_9929698104" name="921841465" type="radio" class="radio-button-input" value="9929698104">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841465_9929698104">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841465_9929698105" name="921841465" type="radio" class="radio-button-input" value="9929698105">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841465_9929698105">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841465_9929698106" name="921841465" type="radio" class="radio-button-input" value="9929698106">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841465_9929698106">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="presentation_descriptive_text" class="question-container
+    
+    ">
+
+    <div id="question-field-921841466" data-qnumber="13" data-question-id="921841466" class=" question-presentation-text qn question descriptive_text">
+        
+        
+    <div class="question-body-font-theme user-generated">5. Обрезку фикуса производят весной – для омоложения растения за счет усиленного обрастания побегами, придания ему определенной формы, предупреждения оголения ствола (у древовидных видов), вызывания ветвления в нужном месте, изменения направления роста ветвей, а также в любое время – в санитарных целях (удаление сухих, слабых, болезненных побегов). Весной растение трогается в рост, после обрезки (удаления побега с несколькими листьями) или прищипки (удаления верхней почки (точки роста) побега, главного или бокового, чуть выше первого листа) просыпается большее количество пазушных почек, обеспечивая хорошее ветвление, новые побеги получаются крепкими и здоровыми. Обрезку лучше проводить за несколько недель до пересадки растения в новую землю и с началом периода подкормок, так как активное побегообразование потребует хорошего питания. Не рекомендуется одновременно проводить обрезку и пересадку, так как это может ослабить и истощить растение. Любые процедуры, затрагивающие корневую систему или наземную часть (крону), в той или иной степени стресс для растения, после которого потребуются резервы на восстановление сил и адаптацию. Не следует подвергать формирующей обрезке ослабленные и болезненные растения. (Источник: http://ficusweb.ru/ficus7.html)</div>
+
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841468" data-qnumber="14" data-question-id="921841468" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841468" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Обрезку фикуса в любом случае нужно проводить только весной.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841468_9929698108" name="921841468" type="radio" class="radio-button-input" value="9929698108">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841468_9929698108">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841468_9929698109" name="921841468" type="radio" class="radio-button-input" value="9929698109">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841468_9929698109">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841468_9929698110" name="921841468" type="radio" class="radio-button-input" value="9929698110">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841468_9929698110">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841469" data-qnumber="15" data-question-id="921841469" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841469" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Обрезка и прищипка стимулируют развитие пазушных почек.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841469_9929698112" name="921841469" type="radio" class="radio-button-input" value="9929698112">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841469_9929698112">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841469_9929698113" name="921841469" type="radio" class="radio-button-input" value="9929698113">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841469_9929698113">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841469_9929698114" name="921841469" type="radio" class="radio-button-input" value="9929698114">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841469_9929698114">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="presentation_descriptive_text" class="question-container
+    
+    ">
+
+    <div id="question-field-921841470" data-qnumber="16" data-question-id="921841470" class=" question-presentation-text qn question descriptive_text">
+        
+        
+    <div class="question-body-font-theme user-generated">6. Count Leo Nikolayevich Tolstoy&nbsp; was born in 1828 into a wealthy family at Yasnaya Polyana in the Tulin province. Both of his parents died before he reached the age of 10. He went on to study Oriental languages and law at Kazan University. In 1851, he joined an artillery regiment and served in the Crimean War. His first published work, Childhood (1852), became the first of the trilogy which includes Boyhood (1854) and Youth (1857). He wrote the Sevastopol Sketches (1855-1856) after taking part in the defence of Sevastopol and this helped to establish his literary reputation further. This was followed by Family Happiness (1859) and The Cossacks (1862). In 1862, Tolstoy married Sophie Andreyevna Behrs. Over the next 15 years they had 13 children together. This period is also noteworthy for the well-regarded fiction he produced. He began writing the epic novel War and Peace (1865-1869) in 1863 and this is concerned with the Napoleonic wars and the Russian aristocracy. Although the canonization of literary works is often questionable, this is esteemed in academia as a masterpiece. This was followed by Anna Karenina (1875-1878), which is a novel devoted to the unhappily married eponymous heroine and explores the disastrous consequences of her adultery. Of his later fictional works, The Death of Ivan Ilyich (1886) and The Kreutzer Sonata (1891) are particularly notable. (Источник: http://www.novelguide.com/war-and-peace/biography)</div>
+
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841471" data-qnumber="17" data-question-id="921841471" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841471" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Participating in Crimean War helped to establish his reputation as a notable writer.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841471_9929698118" name="921841471" type="radio" class="radio-button-input" value="9929698118">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841471_9929698118">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841471_9929698119" name="921841471" type="radio" class="radio-button-input" value="9929698119">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841471_9929698119">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841471_9929698120" name="921841471" type="radio" class="radio-button-input" value="9929698120">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841471_9929698120">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841472" data-qnumber="18" data-question-id="921841472" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841472" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">The Kreutzer Sonata is the last fictional work by Leo Tolstoy.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841472_9929698122" name="921841472" type="radio" class="radio-button-input" value="9929698122">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841472_9929698122">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841472_9929698123" name="921841472" type="radio" class="radio-button-input" value="9929698123">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841472_9929698123">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841472_9929698124" name="921841472" type="radio" class="radio-button-input" value="9929698124">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841472_9929698124">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="presentation_descriptive_text" class="question-container
+    
+    ">
+
+    <div id="question-field-921841473" data-qnumber="19" data-question-id="921841473" class=" question-presentation-text qn question descriptive_text">
+        
+        
+    <div class="question-body-font-theme user-generated">7. Early in the novel, Tom gives little thought as to the consequences of his actions and is often reprimanded by Aunt Polly for his thoughtlessness and selfishness. He is fundamentally good-hearted, however. As the novel progresses, he undergoes a moral growth and begins to consider others more and to try to do what is right, rather than simply what is fun. A turning point comes with his realization of the suffering he has caused Aunt Polly by his disappearance to the island. After the scene when he reassures Aunt Polly that he does care about her and she forgives him, he is so buoyed up that he nobly takes on the whipping due to Becky in school. Later, he cannot live with his bad conscience over Muff Potter's being punished for a murder he did not do, and testifies in court, risking Injun Joe's revenge. (Источник http://www.novelguide.com/the-adventures-of-tom-sawyer/character-profiles)</div>
+
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841474" data-qnumber="20" data-question-id="921841474" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841474" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Throughout the story one can see Tom's moral development from childish selfishness to considering social liabilities towards others.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841474_9929698127" name="921841474" type="radio" class="radio-button-input" value="9929698127">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841474_9929698127">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841474_9929698128" name="921841474" type="radio" class="radio-button-input" value="9929698128">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841474_9929698128">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841474_9929698129" name="921841474" type="radio" class="radio-button-input" value="9929698129">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841474_9929698129">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841475" data-qnumber="21" data-question-id="921841475" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841475" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Even though Tom is fundamentally good-hearted, he had never cared about his Aunt Polly.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841475_9929698131" name="921841475" type="radio" class="radio-button-input" value="9929698131">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841475_9929698131">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841475_9929698132" name="921841475" type="radio" class="radio-button-input" value="9929698132">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841475_9929698132">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841475_9929698133" name="921841475" type="radio" class="radio-button-input" value="9929698133">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841475_9929698133">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="presentation_descriptive_text" class="question-container
+    
+    ">
+
+    <div id="question-field-921841476" data-qnumber="22" data-question-id="921841476" class=" question-presentation-text qn question descriptive_text">
+        
+        
+    <div class="question-body-font-theme user-generated">8. В новейшей орфографической практике проблема написания удвоенных согласных на конце корня осложнилась особенностями написания некоторых новых заимствований-англицизмов в языке-источнике, для которого характерно удвоение корневого согласного перед суффиксом. Поскольку явление это русскому письму чуждое, следует писать, например, шопинг, но не шоппинг (ср. прозводящее шоп, также заимствованное из английского), сканер (ср. сканировать), спамер (ср. спам), рэпер (ср. рэп), хотя в английских этимонах этих прозводных перед суффиксами -er и -ing согласная удвоена. Устоявшиеся написания давно заимствованных слов стоппер (спорт.) и контроллер (тех.), к тому же устойчиво произносимые с долгим согласным, не должны препятствовать кодификации написаний новых подобных заимствований с одиночной согласной перед суффиксом. Сказанное, однако, не относится к заимствованиям-англицизмам типа баннер, плоттер, джоггинг, киднеппинг и др., у которых в русском языке нет однокоренных соответствий с одиночной согласной. (Источник: В. В. Лопатин Орфография и структура слова: к проблеме удвоенных согласных на стыке морфем Современное русское языкознание и лингводидактика. - Вып. 2. Сборник научных трудов, посвященный 85-летию со дня рождения академика РАО Н. М. Шанского. - М., 2007. - С. 77-79)</div>
+
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841477" data-qnumber="23" data-question-id="921841477" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841477" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Появление большого количества слов-англицизмов, их закрепление в русском языке объясняется переменами в общественной и научной жизни.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841477_9929698137" name="921841477" type="radio" class="radio-button-input" value="9929698137">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841477_9929698137">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841477_9929698138" name="921841477" type="radio" class="radio-button-input" value="9929698138">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841477_9929698138">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841477_9929698139" name="921841477" type="radio" class="radio-button-input" value="9929698139">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841477_9929698139">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841478" data-qnumber="24" data-question-id="921841478" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841478" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Слово «бебиситтер» пишет с удвоенной буквой «т», т.к. в русском языке нет однокоренных соответствий с одиночной согласной.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841478_9929698141" name="921841478" type="radio" class="radio-button-input" value="9929698141">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841478_9929698141">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841478_9929698142" name="921841478" type="radio" class="radio-button-input" value="9929698142">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841478_9929698142">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841478_9929698143" name="921841478" type="radio" class="radio-button-input" value="9929698143">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841478_9929698143">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="presentation_descriptive_text" class="question-container
+    
+    ">
+
+    <div id="question-field-921841479" data-qnumber="25" data-question-id="921841479" class=" question-presentation-text qn question descriptive_text">
+        
+        
+    <div class="question-body-font-theme user-generated">9. Многие транскрипционные факторы многоклеточных организмов вовлечены в обеспечение их развития. Действуя в соответствии с генетической программой и/или в ответ на внешние воздействия, они инициируют или подавляют транскрипцию определенных генов, что влечет за собой изменения в клеточной морфологии, клеточную дифференциацию, морфогенез, органогенез и&nbsp;т.&nbsp;д. Например, семейство гомеобоксных транскрипционных факторов критично для формирования правильной морфологии тела у организмов от дрозофилы до человека. Мутации генов этих белков (гомеозисные мутации) у дрозофил приводят к серьёзным нарушениям в дифференцировке сегментов тела данных насекомых (например, развитие ног вместо усиков). (Источник: http://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D1%8B_%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%86%D0%B8%D0%B8)</div>
+
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841480" data-qnumber="26" data-question-id="921841480" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841480" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Некоторые транскрипционные факторы влияют на формирование морфологии тела человека.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841480_9929698146" name="921841480" type="radio" class="radio-button-input" value="9929698146">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841480_9929698146">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841480_9929698147" name="921841480" type="radio" class="radio-button-input" value="9929698147">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841480_9929698147">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841480_9929698148" name="921841480" type="radio" class="radio-button-input" value="9929698148">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841480_9929698148">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841481" data-qnumber="27" data-question-id="921841481" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841481" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Никакие транскрипционные факторы не могут подавлять транскрипцию генов.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841481_9929698151" name="921841481" type="radio" class="radio-button-input" value="9929698151">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841481_9929698151">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841481_9929698152" name="921841481" type="radio" class="radio-button-input" value="9929698152">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841481_9929698152">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841481_9929698153" name="921841481" type="radio" class="radio-button-input" value="9929698153">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841481_9929698153">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="presentation_descriptive_text" class="question-container
+    
+    ">
+
+    <div id="question-field-921841482" data-qnumber="28" data-question-id="921841482" class=" question-presentation-text qn question descriptive_text">
+        
+        
+    <div class="question-body-font-theme user-generated">10. Гексахорд соответствует обычному амбитусу автентического прота - главного лада, первого в латинской нумерации (эту причину указывает Риман как наиболее вероятную для ограничения и локализации сольмизационной структуры в рамках с - а. Своей нотной реформой и гексахордной сольмизацией Гвидо создал по сути новую систему разучивания незнакомых песнопений «по нотам», «без учителя», как он сам подчеркивал. Тем самым он поколебал устную традицию бытования хорала и способствовал развитию тотальной письменной традиции в музыкальной культуре Западной Европы. Невменная нотация была ориентирована на устный способ воспроизведения хоральных мелодий, а новации Гвидо развивают фактически новую парадигму обучения музыке - письменно-аналитическую. (Источник: http://www.opentextnn.ru/music/epoch%20/XII/?id=2566)</div>
+
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841483" data-qnumber="29" data-question-id="921841483" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841483" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Гвидо создал нотную систему, которая лежит в основе современной европейской нотной записи.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841483_9929698157" name="921841483" type="radio" class="radio-button-input" value="9929698157">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841483_9929698157">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841483_9929698158" name="921841483" type="radio" class="radio-button-input" value="9929698158">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841483_9929698158">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841483_9929698159" name="921841483" type="radio" class="radio-button-input" value="9929698159">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841483_9929698159">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841484" data-qnumber="30" data-question-id="921841484" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841484" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Благодаря системе, созданной Гвидо, певец мог выучить новую песню, которую никогда не слышал раньше.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841484_9929698160" name="921841484" type="radio" class="radio-button-input" value="9929698160">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841484_9929698160">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841484_9929698161" name="921841484" type="radio" class="radio-button-input" value="9929698161">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841484_9929698161">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841484_9929698162" name="921841484" type="radio" class="radio-button-input" value="9929698162">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841484_9929698162">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="presentation_descriptive_text" class="question-container
+    
+    ">
+
+    <div id="question-field-921841485" data-qnumber="31" data-question-id="921841485" class=" question-presentation-text qn question descriptive_text">
+        
+        
+    <div class="question-body-font-theme user-generated">11. Таким образом, никто не застрахован от колдовства, и&nbsp;каждый может быть околдован восемнадцатью ниже описанными способами, или быть соблазняем и&nbsp;побуждаем к&nbsp;колдовству. Во-первых, относительно вступления в&nbsp;ведьмы, необходимо яснее раскрыть различные способы, какими они, для увеличения нечестия, привлекают невинных девушек; во-вторых, о&nbsp;средствах их нечестивой профессии, где также дано будет некоторое объяснение относительно присяги, приносимой ими дьяволу; в-третьих, о&nbsp;средстве, коим они с&nbsp;места на место переносятся телом или душой; в-четвёртых, каким образом они подчиняются демонам-инкубам; в-пятых, как они пользуются церковными таинствами для своего колдовства и, в&nbsp;особом смысле, как они околдовывают каждое существо, при попущении Божием, без участия небесных тел; в-шестых, каким способом они могут задерживать силу деторождения; в-седьмых, каким образом они могут чародейским искусством удалять мужской член; в-восьмых, как они могут превращать людей в&nbsp;животных, в-девятых, о&nbsp;способе, каким демоны могут проникать в&nbsp;головы, не повреждая их, когда они производят чародейские действия; в-десятых, о&nbsp;способе, каким Демоны через колдовство ведьм иногда субстанционально вселяются в&nbsp;людей; в&nbsp;одиннадцатых, вообще, как всякого рода болезни могут они насылать; в&nbsp;двенадцатых, о&nbsp;некоторых болезнях в&nbsp;особенности; в&nbsp;тринадцатых, о&nbsp;способе, коим причиняют величайший вред ведьмы-повитухи, когда они или убивают детей, или через проклятие предают их демонам; в&nbsp;четырнадцатых, о&nbsp;способе, каким они наносят различный вред животным; в&nbsp;пятнадцатых, о&nbsp;способе, каким они могут вызывать град и&nbsp;бури и&nbsp;метать молнии на людей и&nbsp;животных; в&nbsp;шестнадцатых, семнадцатых и&nbsp;восемнадцатых о&nbsp;трех способах, к&nbsp;которым прибегают в&nbsp;колдовстве только мужчины, но не женщины. (Источник: Шпренгер Я., Инститорис Г. Молот ведьм / Пер. с лат. Цветков Н.; Предисл. Лозинский С. М., 1932.)</div>
+
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841486" data-qnumber="32" data-question-id="921841486" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841486" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Вступить в ведьмы могут только невинные девушки.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841486_9929698165" name="921841486" type="radio" class="radio-button-input" value="9929698165">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841486_9929698165">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841486_9929698166" name="921841486" type="radio" class="radio-button-input" value="9929698166">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841486_9929698166">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841486_9929698168" name="921841486" type="radio" class="radio-button-input" value="9929698168">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841486_9929698168">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841487" data-qnumber="33" data-question-id="921841487" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841487" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Ведьмы обладают способностью перемещаться в пространстве.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841487_9929698171" name="921841487" type="radio" class="radio-button-input" value="9929698171">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841487_9929698171">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841487_9929698172" name="921841487" type="radio" class="radio-button-input" value="9929698172">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841487_9929698172">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841487_9929698173" name="921841487" type="radio" class="radio-button-input" value="9929698173">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841487_9929698173">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="presentation_descriptive_text" class="question-container
+    
+    ">
+
+    <div id="question-field-921841488" data-qnumber="34" data-question-id="921841488" class=" question-presentation-text qn question descriptive_text">
+        
+        
+    <div class="question-body-font-theme user-generated">12. Through remote mail, smartphones, Blackberries and tablets, email insists that there should be no place or time where the discreet buzz of an arriving message cannot be felt. And, regardless of time and place, it wants these messages to be replied to as soon as possible – in the form of more emails, feeding others’ inboxes. Email is free and instant, so there’s no reason not to send it in vast quantities – and, just to be on the safe side, to copy everyone into every message, and to cover your own back by double-checking every step of a process in written electronic form. Email doesn’t want you to make autonomous decisions, to delegate, or to switch off: it wants you to turn everything into typed words and queries, copied to everyone. It doesn’t want you to make phone calls or attend meetings, either: the preference is for endlessly reduplicated words and attachments.&nbsp;Yet there’s little mystery about antidotes to the worst of these tendencies. The rules of good email etiquette are widely documented, and will seem like common sense to most savvy modern workers: think before you send, don’t needlessly copy everyone in, be brief, say nothing if you have nothing to say, don’t send an email if a phonecall would work better, use other more appropriate tools for tasks like project management or editing shared documents. (Источник: http://www.bbc.com/future/story/20120328-is-email-evil/1)</div>
+
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841489" data-qnumber="35" data-question-id="921841489" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841489" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">Easiness writing electronic mails makes people generate vast amount of unneeded content.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841489_9929698175" name="921841489" type="radio" class="radio-button-input" value="9929698175">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841489_9929698175">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841489_9929698176" name="921841489" type="radio" class="radio-button-input" value="9929698176">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841489_9929698176">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841489_9929698177" name="921841489" type="radio" class="radio-button-input" value="9929698177">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841489_9929698177">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div><div class="question-row clearfix
+                   "><div data-question-type="single_choice_vertical" class="question-container
+    
+    ">
+
+    <div id="question-field-921841490" data-qnumber="36" data-question-id="921841490" class=" question-single-choice-radio qn question vertical question-required">
+        
+        
+            <fieldset aria-required="true" class=" question-fieldset" data-radio-button-group="">
+                
+                
+                <h4 id="question-title-921841490" class="question-title-container">
+                    <span class="required-asterisk notranslate">
+                            *
+                        </span>
+
+                    
+                    
+                        <span class="user-generated notranslate"><span style="font-size: 10pt;">General rules of optimising one's work include using task management tools instead of emails in certain cases.</span></span>
+                    
+                </h4>
+                <div class="question-body clearfix notranslate ">
+                    
+
+    
+    
+        
+            <div class="">
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841490_9929698181" name="921841490" type="radio" class="radio-button-input" value="9929698181">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841490_9929698181">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Верно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841490_9929698182" name="921841490" type="radio" class="radio-button-input" value="9929698182">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841490_9929698182">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Неверно
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+    
+        
+        <div class="answer-option-cell">
+            
+    
+        
+        
+        
+        
+        
+    
+
+    <div data-sm-radio-button="" class="radio-button-container">
+        <input id="921841490_9929698183" name="921841490" type="radio" class="radio-button-input" value="9929698183">
+        <label data-sm-radio-button-label="" class="answer-label radio-button-label no-touch touch-sensitive clearfix" for="921841490_9929698183">
+            <span class="radio-button-display"></span>
+            <span class="radio-button-label-text question-body-font-theme user-generated">
+                Не следует из текста
+                
+            </span>
+        </label>
+    </div>
+
+        </div>
+        
+            </div>
+        
+    
+    
+    
+
+    
+    
+
+
+                </div>
+            </fieldset>
+        
+    </div>
+</div></div>
+
+    
+
+</div>
+            
+
+            
+
+            <div class="survey-submit-actions center-text clearfix">
+                
+                    <button type="submit" data-previous-page-button="" class="btn small prev-button survey-page-button user-generated notranslate">
+                       Предыд.
+                    </button>
+                
+                
+                    <button type="submit" class="btn small next-button survey-page-button user-generated notranslate">
+                       След.
+                    </button>
+                
+            </div>
+
+            
+	
+	
+	    <input type="hidden" id="survey_data" name="survey_data" value="4FoTYerhlqpl9PSGmuD5IRHlvQwUFM7UTetbZA12WwZH_2B4U7Pk_2FPrI1pWmyMxiilF_2FPXzhbwDq32FpzHymMJe0oIYH0P8zXR_2FgGd5mrr2gb_2BIscCPrA9sxDlKcmChe5tHME1V6obIneQpdRilGkcOzUDmQgFJnAeG3w9N8BCijPf_2BFSvdF_2BRdTTmJ0iD2RC2ROJ9zD_2Fgt4Xn3WuJOT08REsEeS10fT54d7Sfw6c2znOc_2BFY63dr9Vwdga9nWsXH3_2B9DLUeBfTi_2B08sNVaPcx55MWHZ65_2BsCjXiMWFCmjxPXNfqZWuU8iPX9jxYagsrD3HSg70FpQc99nbR_2BV_2F_2B_2Bz5YNMqu1B_2BS7qH30cVcyFB8981gzY7oSKl9lJCUDNNDRKLCXql_2BFEibHANP4F86FXqA_3D_3D">
+	    <input type="hidden" id="is_previous" name="is_previous" value="false">
+	    
+	
+
+        </form>
+    </section>
+    
+    
+
+    <footer class="survey-footer">
+        
+            
+
+
+        
+    </footer>
+</article>
+<div class="survey-under-footer-ie-buffer"></div>
+
+        
+    <div style="display:none;">
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-56526-1', 'auto');
+ga('send', 'pageview');
+</script>
+</div>
+
+        <noscript>&lt;style type="text/css" media="all"&gt;form {display:none;} &lt;/style&gt;&lt;div style="text-align:center;"&gt;Javascript is required for this site to function, please enable.&lt;/div&gt;</noscript>
+  
+<div id="shadowMeasureIt"></div><div id="divCoordMeasureIt"></div><div id="divRectangleMeasureIt"><div id="divRectangleBGMeasureIt"></div></div></body></html>
