@@ -135,7 +135,7 @@
 	width: 46px!important;
 	border-radius: 4px!important;
 }
-#gt-pb-star.trans-pb-button::after{
+#gt-pb-star .trans-pb-button::after{
 	content: 'p';
 }
 #gt-res-copy::after{
