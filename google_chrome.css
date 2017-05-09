@@ -31,9 +31,6 @@
 #gt-c.g-section .jfk-button-standard{
   z-index:-1;
 }
-#gt-c.g-section #gt-langs #gt-sl-gms{
-  z-index:-1;
-}
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after,
 #gt-c.g-section #gt-langs .jfk-button:not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
   top:-7px;
@@ -44,12 +41,15 @@
 }
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(2):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
   content:"2";
+	z-index:-2!important;
 }
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(3):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
   content:"3";
+	z-index:-3!important;
 }
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(5):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
   content:"4";
+	z-index:-5!important;
 }
 #gt-c.g-section #gt-langs .jfk-button:not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
   position:absolute;
@@ -83,4 +83,18 @@
 }
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(5){
 	z-index:-5!important;
+}
+#gt-c.g-section #gt-langs #gt-sl-gms{
+  z-index:-8;
+}
+
+/* right side */
+#gt-c.g-section #gt-langs .jfk-button:nth-of-type(2){
+  z-index:-2;
+}
+#gt-c.g-section #gt-langs .jfk-button:nth-of-type(3){
+  z-index:-3;
+}
+#gt-tl-gms{
+  z-index:-8;
 }
