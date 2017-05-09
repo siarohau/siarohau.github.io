@@ -5,13 +5,35 @@
 /* Styling translate extension (translate.google.com) */
 #gt-c.g-section #gt-swap::after{
   content:"0";
-  background:#4d8ffd;
-  color:#fff;
-  text-decoration:none;
-  border-radius:50%;
+  top:-34px;
+  left:21px;
+}
+#gt-c.g-section #gt-swap::after,
+#gt-c.g-section #gt-langs .jfk-button:not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
   width:16px;
   height:16px;
   line-height:16px;
-  top:-34px;
-  left:21px;
+  border-radius:50%;
+  background:#4d8ffd;
+  color:#fff;
+  text-decoration:none;
+}
+#gt-c.g-section #gt-langs .jfk-button{
+  overflow:visible;
+}
+#gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(1):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
+  content:"1";
+}
+#gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(2):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
+  content:"2";
+}
+#gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(3):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
+  content:"3";
+}
+#gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(5):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
+  content:"4";
+}
+#gt-c.g-section #gt-langs .jfk-button:not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
+  position:absolute;
+  top:-10px;
 }
