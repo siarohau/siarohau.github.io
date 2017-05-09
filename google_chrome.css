@@ -1,9 +1,9 @@
 /*
-  Note: "Instriction for Optimized this file".
+	Note: "Instriction for Optimized this file".
 
 	Not support content:attr(attribute-name, type, value);
-  Type can be any of: 'string', 'color', number', 'integer', 'url', ‘length’ ‘angle’ ‘time’ ‘frequency’, ‘em’ ‘ex’ ‘px’ ‘rem’ ‘vw’ ‘vh’ ‘vmin’ ‘mm’ ‘cm’ ‘in’ ‘pt’ ‘pc’ ‘deg’ ‘grad’ ‘rad’ ‘ms’ ‘s’ ‘Hz’ ‘kHz’ ‘%’.
-  Value (Optional). Value need if attribute empty.
+	Type can be any of: 'string', 'color', number', 'integer', 'url', ‘length’ ‘angle’ ‘time’ ‘frequency’, ‘em’ ‘ex’ ‘px’ ‘rem’ ‘vw’ ‘vh’ ‘vmin’ ‘mm’ ‘cm’ ‘in’ ‘pt’ ‘pc’ ‘deg’ ‘grad’ ‘rad’ ‘ms’ ‘s’ ‘Hz’ ‘kHz’ ‘%’.
+	Value (Optional). Value need if attribute empty.
 */
 
 /*
@@ -13,7 +13,7 @@
 */
 
 #rb_box_fc_clist #side_bar_inner > #ads_left{
-  display: none !important;
+	display: none !important;
 }
 
 /*
@@ -23,68 +23,68 @@
 */
 
 #gt-c.g-section #gt-swap::after{
-  content:"0";
-  top:-34px;
-  left:21px;
+	content:"0";
+	top:-34px;
+	left:21px;
 }
 #gt-c.g-section #gt-swap::after,
 #gt-c.g-section #gt-langs .jfk-button:not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after,
 #gt-c.g-section #gt-sl-gms .goog-flat-menu-button-dropdown::after, #gt-tl-gms .goog-flat-menu-button-dropdown::after{
-  width:16px;
-  height:16px;
-  line-height:16px;
-  border-radius:50%;
-  background:#4d8ffd;
-  color:#fff;
-  text-decoration:none;
+	width:16px;
+	height:16px;
+	line-height:16px;
+	border-radius:50%;
+	background:#4d8ffd;
+	color:#fff;
+	text-decoration:none;
 }
 #gt-c.g-section #gt-langs .jfk-button{
-  overflow:visible;
+	overflow:visible;
 }
 #gt-c.g-section .jfk-button-standard{
-  z-index:-1;
+	z-index:-1;
 }
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after,
 #gt-c.g-section #gt-langs .jfk-button:not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
-  top:-7px;
-  right:-3px;
+	top:-7px;
+	right:-3px;
 }
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(1):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
-  content:"1";
+	content:"1";
 }
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(2):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
-  content:"2";
+	content:"2";
 	z-index:-2!important;
 }
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(3):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
-  content:"3";
+	content:"3";
 	z-index:-3!important;
 }
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(5):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
-  content:"4";
+	content:"4";
 	z-index:-5!important;
 }
 #gt-c.g-section #gt-langs .jfk-button:not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
-  position:absolute;
+	position:absolute;
 }
 #gt-c.g-section #gt-sl-gms .goog-flat-menu-button-dropdown::after, #gt-tl-gms .goog-flat-menu-button-dropdown::after{
-  content:"8";
-  position:relative;
-  top:-23px;
-  left:0;
+	content:"8";
+	position:relative;
+	top:-23px;
+	left:0;
 }
 
 #gt-c.g-section #gt-langs .jfk-button:nth-of-type(1):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
-  content:"5";
+	content:"5";
 }
 #gt-c.g-section #gt-langs .jfk-button:nth-of-type(2):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
-  content:"6";
+	content:"6";
 }
 #gt-c.g-section #gt-langs .jfk-button:nth-of-type(3):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
-  content:"7";
+	content:"7";
 }
 #gt-c.g-section #gt-langs .jfk-button:nth-of-type(4):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
-  content:"8";
+	content:"8";
 }
 
 /* Fix z-index left-side */
@@ -98,17 +98,16 @@
 	z-index:-5!important;
 }
 #gt-c.g-section #gt-langs #gt-sl-gms{
-  z-index:-8;
+	z-index:-8;
 }
 
 /* Fix z-index right side */
 #gt-c.g-section #gt-langs .jfk-button:nth-of-type(2){
-  z-index:-2;
+	z-index:-2;
 }
 #gt-c.g-section #gt-langs .jfk-button:nth-of-type(3){
-  z-index:-3;
+	z-index:-3;
 }
 #gt-tl-gms{
-  z-index:-8;
+	z-index:-8;
 }
- 
