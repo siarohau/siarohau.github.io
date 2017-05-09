@@ -1,4 +1,17 @@
-/* Remove ads from the vk */
+/* Remove ads from the (vk.com) */
 #rb_box_fc_clist #side_bar_inner > #ads_left{
   display: none !important;
+}
+/* Styling translate extension (translate.google.com) */
+#gt-c.g-section #gt-swap::after{
+  content:"0";
+  background:#4d8ffd;
+  color:#fff;
+  text-decoration:none;
+  border-radius:50%;
+  width:16px;
+  height:16px;
+  line-height:16px;
+  top:-34px;
+  left:21px;
 }
