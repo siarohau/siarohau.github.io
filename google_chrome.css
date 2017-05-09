@@ -75,9 +75,12 @@
 }
 
 /* fix z-index */
+#gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(2){
+	z-index:-2!important;
+}
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(3){
-	z-index:-1!important;
+	z-index:-3!important;
 }
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(5){
-	z-index:-2!important;
+	z-index:-5!important;
 }
