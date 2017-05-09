@@ -29,7 +29,12 @@
 }
 #gt-c.g-section #gt-swap::after,
 #gt-c.g-section #gt-langs .jfk-button:not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after,
-#gt-c.g-section #gt-sl-gms .goog-flat-menu-button-dropdown::after, #gt-tl-gms .goog-flat-menu-button-dropdown::after{
+#gt-c.g-section #gt-sl-gms .goog-flat-menu-button-dropdown::after, #gt-tl-gms .goog-flat-menu-button-dropdown::after,
+#gt-c.g-section #gt-src-wrap::after,
+#gt-c.g-section #gt-speech::after,
+#gt-c.g-section #gt-text-c div[class$="button"]:not([class*="share"]):not([class*="trans-edit"])::after,
+#gt-lang-submit::after
+{
 	width:16px;
 	height:16px;
 	line-height:16px;
@@ -112,3 +117,48 @@
 	z-index:-8;
 }
  
+
+
+#gt-src-listen::after{
+	content: 'L';
+}
+#gt-speech::after{
+	content: 'm';
+}
+#gt-src-wrap::after{
+	content: 'f - focus';
+	bottom: 5px;
+	right: 70px;
+	width: 46px!important;
+	border-radius: 4px!important;
+}
+#gt-pb-star.trans-pb-button::after{
+	content: 'p';
+}
+#gt-res-copy::after{
+	content: 'c';
+}
+#gt-res-listen::after{
+	content: 'l';
+}
+
+#gt-speech::after, #gt-src-roman::after, #gt-src-listen::after, #gt-res-select::after, #gt-res-copy::after, #gt-res-listen::after, #gt-pb-star .goog-toolbar-button::after, #gt-res-roman::after{
+	top: -2px;
+	left: 3px;
+}
+#gt-clear::after{
+	content: 'd';
+	top: -30px;
+	right: -10px;
+}
+#gt-lang-submit::after{
+	content: 'shift + enter';
+	position: absolute;
+	top: 6px;
+	margin-left: 10px;
+	width: 70px;
+	display: inline-block;
+	border-radius: 4px;
+	text-decoration: none;
+	text-align: center;
+}
