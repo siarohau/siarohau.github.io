@@ -78,6 +78,9 @@
 	top:-23px;
 	left:0;
 }
+#gt-tl-gms .goog-flat-menu-button-dropdown::after{
+	content: '9';
+}
 
 #gt-c.g-section #gt-langs .jfk-button:nth-of-type(1):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
 	content:"5";
