@@ -1,3 +1,9 @@
+/*
+  Not support content:attr(attribute-name, type, value);
+  Type can be any of: 'string', 'color', number', 'integer', 'url', ‘length’ ‘angle’ ‘time’ ‘frequency’, ‘em’ ‘ex’ ‘px’ ‘rem’ ‘vw’ ‘vh’ ‘vmin’ ‘mm’ ‘cm’ ‘in’ ‘pt’ ‘pc’ ‘deg’ ‘grad’ ‘rad’ ‘ms’ ‘s’ ‘Hz’ ‘kHz’ ‘%’.
+  Value (Optional). Value need if attribute empty.
+*/
+
 /* Remove ads from the (vk.com) */
 #rb_box_fc_clist #side_bar_inner > #ads_left{
   display: none !important;
