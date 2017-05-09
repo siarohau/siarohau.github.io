@@ -1,14 +1,27 @@
 /*
-  Not support content:attr(attribute-name, type, value);
+  Note: "Instriction for Optimized this file".
+
+	Not support content:attr(attribute-name, type, value);
   Type can be any of: 'string', 'color', number', 'integer', 'url', ‘length’ ‘angle’ ‘time’ ‘frequency’, ‘em’ ‘ex’ ‘px’ ‘rem’ ‘vw’ ‘vh’ ‘vmin’ ‘mm’ ‘cm’ ‘in’ ‘pt’ ‘pc’ ‘deg’ ‘grad’ ‘rad’ ‘ms’ ‘s’ ‘Hz’ ‘kHz’ ‘%’.
   Value (Optional). Value need if attribute empty.
 */
 
-/* Remove ads from the (vk.com) */
+/*
+===================================================================================
+ Remove ads from the (vk.com)
+===================================================================================
+*/
+
 #rb_box_fc_clist #side_bar_inner > #ads_left{
   display: none !important;
 }
-/* Styling translate extension (translate.google.com) */
+
+/*
+===================================================================================
+ Styling translate extension (translate.google.com) 
+===================================================================================
+*/
+
 #gt-c.g-section #gt-swap::after{
   content:"0";
   top:-34px;
@@ -74,7 +87,7 @@
   content:"8";
 }
 
-/* fix z-index */
+/* Fix z-index left-side */
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(2){
 	z-index:-2!important;
 }
@@ -88,7 +101,7 @@
   z-index:-8;
 }
 
-/* right side */
+/* Fix z-index right side */
 #gt-c.g-section #gt-langs .jfk-button:nth-of-type(2){
   z-index:-2;
 }
