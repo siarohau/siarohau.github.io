@@ -1,5 +1,5 @@
 /*
-	Note: "Instriction for Optimized this file".
+	Note: "Instruction for Optimized this file".
 
 	Not support content:attr(attribute-name, type, value);
 	Type can be any of: 'string', 'color', number', 'integer', 'url', ‘length’ ‘angle’ ‘time’ ‘frequency’, ‘em’ ‘ex’ ‘px’ ‘rem’ ‘vw’ ‘vh’ ‘vmin’ ‘mm’ ‘cm’ ‘in’ ‘pt’ ‘pc’ ‘deg’ ‘grad’ ‘rad’ ‘ms’ ‘s’ ‘Hz’ ‘kHz’ ‘%’.
