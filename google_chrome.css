@@ -12,7 +12,7 @@
 ===================================================================================
 */
 
-#rb_box_fc_clist #side_bar_inner > #ads_left{
+#side_bar_inner > #ads_left{
 	display: none !important;
 }
 
