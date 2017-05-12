@@ -26,11 +26,8 @@
   display:none!important;
 }
 .loveradio .player div[align=center]{
-display:none;
+	display:none!important;
 }
-/* .loveradio .player{
-background-color:#4d0b91;
-} */
 
 /*
 ===================================================================================
