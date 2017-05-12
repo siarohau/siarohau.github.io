@@ -28,6 +28,9 @@
 .loveradio .player div[align=center]{
 	display:none!important;
 }
+.loveradio .player{
+	background-size: cover;
+}
 
 /*
 ===================================================================================
