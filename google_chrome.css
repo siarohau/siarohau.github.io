@@ -25,9 +25,12 @@
 .loveradio #aswift_0_expand{
   display:none!important;
 }
-.loveradio .player{
-background-color:#4d0b91;
+.loveradio .player div[align=center]{
+display:none;
 }
+/* .loveradio .player{
+background-color:#4d0b91;
+} */
 
 /*
 ===================================================================================
