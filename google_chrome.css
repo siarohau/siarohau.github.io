@@ -189,3 +189,55 @@
 	text-decoration: none;
 	text-align: center;
 }
+
+/*
+===================================================================================
+ Rremove ads from the (biqle.ru) Source https://userstyles.org/styles/141325/biqle-ru-no-ads
+===================================================================================
+*/
+@-moz-document domain("biqle.ru")
+{
+  input[id="q"]
+  {
+    pointer-events: visibleStroke;
+  }
+
+  body.main>div,
+body.main>script,
+div[id="clouds"],
+canvas
+  {
+    pointer-events: none !important;
+  }
+
+  div[class="bg_layer"],
+a[class="up"],
+div[class="hidden"],
+div[class="page_wrapper"]>script,
+svg,
+img[scr*=""],
+video[class^="videoplayer"],
+svg[class="videoplayer_big_play_icon"],
+div[class="videoplayer_big_play_btn_bg"],
+div[class="pr videoplayer_waiting"],
+div[id="progress_more"],
+script[src*="servicer"],
+script[src*="traffic"],
+script[src*="apu"],
+script[src*="php"],
+style[class^="Traffic"],
+div[class="video-show"],
+div[class="video-fav"],
+div[id="vp_wrapper"],
+a[href*="click"],
+a[href*="php"],
+iframe[id^="callback_"],
+div[id^="opaco"],
+div[id^="pop"],
+div[id^="M"]
+  {
+    pointer-events: none !important;
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
