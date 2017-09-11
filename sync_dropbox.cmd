@@ -1,3 +1,6 @@
+Echo "Set utf-8"
+chcp 65001
+
 Echo "Sync files with DROPBOX for win10"
 Echo "shortcut "mv" not working"
 
