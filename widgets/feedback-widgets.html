@@ -78,6 +78,9 @@
 		.col{
 			width: 48%;
 		}
+		.col.col-max{
+			width: 100%
+		}
 		.col img{
 			max-width: 100%;
 			width: auto;
@@ -140,11 +143,14 @@
 				<h2>#01 - Стандартный vk + fb (API)</h2>
 			</header>
 			<div class="row">
+				<div class="col col-max">
+					<img src="example.png">
+
+				</div>
 				<div class="col">
 					<div id="vk_comments"></div>
 				</div>
 				<div class="col">
-					<img src="example.png">
 					<div class="fb-comments" data-href="//developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5"></div>
 				</div>
 			</div>
