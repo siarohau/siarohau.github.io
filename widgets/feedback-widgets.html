@@ -17,6 +17,7 @@
 			min-height: 100vh;
 		}
 		body{
+			margin: 0 1rem;
 			font-family: 'Roboto', sans-serif;
 			background: rgba(238, 238, 238, 0.5);
 		}
@@ -33,6 +34,8 @@
 			display: -o-flex;
 			display: flex;
 			justify-content: center;
+			flex-direction: column;
+			text-align: center;
 		}
 		.site-header h1{
 			margin: 3.5rem 0 2.5rem;
@@ -45,8 +48,11 @@
 			margin-bottom: 8rem;
 		}
 		nav{
-			margin-top: 1rem;
-			margin-bottom: 1rem;
+			border-radius: 4px;
+			background: #fff;
+			padding: 2.5rem 3rem;
+			/*margin-top: 1rem;*/
+			margin-bottom: 3rem;
 		}
 
 		nav a:hover{
@@ -61,10 +67,8 @@
 		.container{
 			width: 100%;
 			max-width: 1100px;
-			padding: 1.5rem 3rem;
 			margin: 0 auto;
 			border-radius: 4px;
-			background: #fff;
 		}
 		.row{
 			display: flex;
@@ -74,7 +78,9 @@
 			width: 48%;
 		}
 		section{
-
+			background: #fff;
+			padding: 5rem 3rem;
+			border-bottom: 1px solid #f6f6f6;
 		}
 		section header{
 			display: flex;
@@ -88,80 +94,71 @@
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
 		}
-		@media (max-wdith:768px){
-			html{
+		section footer{
+			display: flex;
+			justify-content: center;
+			text-align: center;
+		}
+		@media (max-width:768px){
+			html,body{
 				font-size: 70%;
+			}
+			nav{
+				padding-left: 1rem;
+				padding-right: 1rem;
 			}
 		}
 	</style>
 	<link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 </head>
 <body>
-	<header class="site-header">
+	<header class="site-header container">
 		<h1>Виджеты отзывов/комментариев для сайта</h1>
+		<nav>
+			<ul>
+				<li><a href="#vk-fb">Стандартный VK + FB</a></li>
+				<li><a href="#disqus">Виджет от Disqus</a></li>
+				<li><a href="#hypercomments">Виджет от Hypercomments</a></li>
+				<li><a href="#cackle">Виджет от Cackle</a></li>
+			</ul>
+		</nav>
 	</header>
 	<main>
-		<div class="container">
-			<nav>
-				<ul>
-					<li><a href="#vk-fb">Стандартный vk + fb</a></li>
-					<li><a href="#disqus">Виджет от Disqus</a></li>
-					<li><a href="#hypercomments">Виджет от hypercomments</a></li>
-					<li><a href="#cackle">Виджет от cackle</a></li>
-				</ul>
-			</nav>
-		</div>
-		<section id="vk-fb">
-			<div class="container">
-				<header>
-					<div class="container">
-						<h2>#01 - Стандартный vk + fb (API)</h2>
-					</div>
-				</header>
-				<div class="row">
-					<div class="col">
-						<div id="vk_comments"></div>
-					</div>
-					<div class="col">
-						<div class="fb-comments" data-href="//developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5"></div>
-					</div>
+		<section id="vk-fb" class="container">
+			<header>
+				<h2>#01 - Стандартный vk + fb (API)</h2>
+			</header>
+			<div class="row">
+				<div class="col">
+					<div id="vk_comments"></div>
+				</div>
+				<div class="col">
+					<div class="fb-comments" data-href="//developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5"></div>
 				</div>
 			</div>
 		</section>
-		<section id="disqus">
+		<section id="disqus" class="container">
 			<header>
-				<div class="container">
-					<h2>#02 - Виджет от Disqus (бесплатный)</h2>
-				</div>
+				<h2>#02 - Виджет от Disqus (бесплатный)</h2>
 			</header>
 			<footer>
-				<div class="container">
-					<a href="//disqus.com/pricing/" target="_blank">Тарифы</a>
-				</div>
+				<a href="//disqus.com/pricing/" target="_blank">Тарифы</a>
 			</footer>
 		</section>
-		<section id="hypercomments">
+		<section id="hypercomments" class="container">
 			<header>
-				<div class="container">
-					<h2>#03 - Виджет от hypercomments (платный, 1 сайт бесплатно)</h2>
-				</div>
+				<h2>#03 - Виджет от hypercomments (платный, 1 сайт бесплатно)</h2>
 			</header>
 			<footer>
-				<div class="container">
-					<a href="//hypercomments.com/pricing" target="_blank">Тарифы</a>
-				</div>
+				<a href="//hypercomments.com/pricing" target="_blank">Тарифы</a>
 			</footer>
 		</section>
-		<section id="cackle">
+		<section id="cackle" class="container">
 			<header>
-				<div class="container">
-					<h2>#04 - Виджет от cackle (платный)</h2>
-				</div>
+				<h2>#04 - Виджет от cackle (платный)</h2>
 			</header>
 			<footer>
-				<div class="container">
-					<a href="//cackle.me/pricing" target="_blank">Тарифы</a>
-				</div>
+				<a href="//cackle.me/pricing" target="_blank">Тарифы</a>
 			</footer>
 		</section>
 	</main>
