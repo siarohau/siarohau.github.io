@@ -27,6 +27,10 @@
 			border-bottom: 1px solid #eee;
 			transition: all .2s;
 		}
+		a:hover{
+			color: #444;
+			border-bottom-color: #ddd;
+		}
 		.site-header{
 			display: -webkit-flex;
 			display: -moz-flex;
@@ -55,10 +59,7 @@
 			margin-bottom: 3rem;
 		}
 
-		nav a:hover{
-			color: #444;
-			border-bottom-color: #ddd;
-		}
+
 		nav ul{
 			display: flex;
 			justify-content: space-between;
@@ -81,6 +82,10 @@
 			background: #fff;
 			padding: 5rem 3rem;
 			border-bottom: 1px solid #f6f6f6;
+			margin-bottom: 3rem!important;
+		}
+		section:nth-of-type(even){
+			/*background: #e9f8ff;*/
 		}
 		section header{
 			display: flex;
@@ -142,6 +147,11 @@
 			<header>
 				<h2>#02 - Виджет от Disqus (бесплатный)</h2>
 			</header>
+			<div class="content">
+				<div id="disqus_thread"></div>
+
+
+			</div>
 			<footer>
 				<a href="//disqus.com/pricing/" target="_blank">Смотреть Тарифы</a>
 			</footer>
@@ -150,6 +160,9 @@
 			<header>
 				<h2>#03 - Виджет от hypercomments (платный, 1 сайт бесплатно)</h2>
 			</header>
+			<div class="content">
+				<div id="hypercomments_widget"></div>
+			</div>
 			<footer>
 				<a href="//hypercomments.com/pricing" target="_blank">Смотреть Тарифы</a>
 			</footer>
@@ -203,6 +216,34 @@
 		fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 
+
+	<!-- disqus -->
+	<script>
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = 'https://siarohau-github-io.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<!-- <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
+
+
+	<!-- hypercomments -->
+	<script>
+	_hcwp = window._hcwp || [];
+	_hcwp.push({widget:"Stream", widget_id: 98975});
+	(function() {
+	if("HC_LOAD_INIT" in window)return;
+	HC_LOAD_INIT = true;
+	var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
+	var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
+	hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/98975/"+lang+"/widget.js";
+	var s = document.getElementsByTagName("script")[0];
+	s.parentNode.insertBefore(hcc, s.nextSibling);
+	})();
+	</script>
+	<!-- <a href="//hypercomments.com" rel = "nofollow" class="hc-link" title="comments widget">comments powered by HyperComments</a> -->
 
 	<!-- cackle -->
 	<script>
