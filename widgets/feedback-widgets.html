@@ -10,14 +10,19 @@
 		}
 		body{
 			font-family: 'Roboto', sans-serif;
+			background: #000;
 		}
 		.container{
-			max-width: 1000px;
+			max-width: 1100px;
 			padding: 0 1rem;
 			margin: 0 auto;
 		}
+		.row{
+			display: flex;
+			justify-content: space-between;
+		}
 		.col{
-			width: 50%;
+			width: 48%;
 		}
 		section{
 
@@ -62,19 +67,25 @@
 	<section></section>
 	<section></section>
 
+
+
+
+	<!-- jquery -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+
+	<!-- snow -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/JQuery-Snowfall/1.7.4/snowfall.min.js"></script>
 	<script>
 		$(document).snowfall({flakeCount : 800, maxSpeed : 5, maxSize : 5});
 	</script>
 
-	<!-- Put this script tag to the <head> of your page -->
+
+	<!-- Vk -->
 	<script src="//vk.com/js/api/openapi.js?150"></script>
 	<script>
 		VK.init({apiId: 6298157, onlyWidgets: true});
 	</script>
-
-
 	<script>
 		VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
 	</script>
