@@ -22,3 +22,8 @@ mklink /D "%AppData%\Sublime Text 3\Packages\Open-Include" %USERPROFILE%\Dropbox
 Echo "Sync FileZilla"
 move "%AppData%\FileZilla" %USERPROFILE%\Dropbox\work\FileZilla
 mklink /D "%AppData%\FileZilla" %USERPROFILE%\Dropbox\work\FileZilla
+
+
+Echo "Sync Zadarma"
+move "%AppData%\Zadarma" %USERPROFILE%\Dropbox\work\Zadarma
+mklink /D "%AppData%\Zadarma" %USERPROFILE%\Dropbox\work\Zadarma
