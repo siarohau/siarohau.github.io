@@ -120,8 +120,11 @@
 #gt-c.g-section #gt-langs .jfk-button:nth-of-type(4):not([aria-hidden="true"]):not(#gt-swap):not(#gt-submit)::after{
 	content:"8";
 }
+*/
 
 /* Fix z-index left-side */
+/* OFF */
+/*
 #gt-c.g-section #gt-langs #gt-sl-sugg .jfk-button:nth-of-type(2){
 	z-index:-2!important;
 }
@@ -134,8 +137,11 @@
 #gt-c.g-section #gt-langs #gt-sl-gms{
 	z-index:-8;
 }
+*/
 
 /* Fix z-index right side */
+/* OFF */
+/*
 #gt-c.g-section #gt-langs .jfk-button:nth-of-type(2){
 	z-index:-2;
 }
