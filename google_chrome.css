@@ -46,6 +46,8 @@
 ===================================================================================
 */
 
+/* OFF */
+/*
 #gt-c.g-section #gt-swap::after{
 	content:"0";
 	top:-34px;
@@ -189,6 +191,7 @@
 	text-decoration: none;
 	text-align: center;
 }
+*/
 
 /*
 ===================================================================================
@@ -240,4 +243,46 @@ div[id^="M"]
     display: none !important;
     visibility: hidden !important;
   }
+}
+
+div[style]{
+  display:none!important;
+}
+.video div[style]{
+  display:block!important;
+}
+a[target]{
+  display:none!important;
+}
+
+/*
+===================================================================================
+ YouTube add Video Trends positons
+===================================================================================
+*/
+#contents  #grid-container{
+  counter-reset: section; 
+}
+#contents #grid-container ytd-video-renderer{
+  position:relative;
+}
+#contents  #grid-container ytd-video-renderer:before{
+  counter-increment: section;
+  content: counter(section);
+  position:absolute;
+  top:-3px;
+  margin-right:8px;
+   right:100%;
+  /* color:red; */
+  color:#ddd;
+  font-weight:bold;
+  font-size:2rem;
+}
+/*
+===================================================================================
+ VK show listen track
+===================================================================================
+*/
+[dir] .audio_pl_item2 .audio_pl__actions_wrap{
+	opacity:1!important;
 }
