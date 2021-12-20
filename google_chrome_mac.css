@@ -14,7 +14,9 @@
 }
 
 #PlayBackRate{
-  margin:0 .1rem;
+  margin:0 .3rem;
+  border: 1px solid #504949;
+  border-radius: 8px;
 }
 /*
 ===================================================================================
