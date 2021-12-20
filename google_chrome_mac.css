@@ -22,7 +22,12 @@
   border-radius: 8px;
 }
 .btn.btn-left:before{
-  content:"\1F892";
+  content:"<";
+}
+.btn.btn-right:before{
+  content:">";
+}
+.btn.btn-left:before,.btn.btn-right:before{
   position:absolute;
   width:100%;
   height:100%;
@@ -34,6 +39,7 @@
   text-align:center;
   color:#fff;
 }
+
 /*
 ===================================================================================
  YouTube add Video Trends positons
