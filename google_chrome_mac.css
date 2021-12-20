@@ -1,0 +1,41 @@
+/*
+===================================================================================
+ YouTube fix conflict plugin speed and vidIq button classes
+===================================================================================
+*/
+#PlayBackRatePanel .btn.btn-left,.btn.btn-right{
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 5px;
+    border: 0;
+}
+#PlayBackRatePanel .btn{
+  font-size: 12px;
+}
+
+#PlayBackRate{
+  margin:0 .1rem;
+}
+/*
+===================================================================================
+ YouTube add Video Trends positons
+===================================================================================
+*/
+#contents  #grid-container{
+  counter-reset: section; 
+}
+#contents #grid-container ytd-video-renderer{
+  position:relative;
+}
+#contents  #grid-container ytd-video-renderer:before{
+  counter-increment: section;
+  content: counter(section);
+  position:absolute;
+  top:-3px;
+  margin-right:8px;
+   right:100%;
+  /* color:red; */
+  color:#ddd;
+  font-weight:bold;
+  font-size:2rem;
+}
