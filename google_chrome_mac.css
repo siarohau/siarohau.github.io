@@ -4,6 +4,7 @@
 ===================================================================================
 */
 #PlayBackRatePanel .btn.btn-left,.btn.btn-right{
+    position:relative;
     font-size: 12px;
     background: rgba(255, 255, 255, 0.25);
     padding: 5px;
@@ -18,6 +19,19 @@
   margin:0 .3rem;
   border: 1px solid #504949;
   border-radius: 8px;
+}
+.btn.btn-left:before{
+  content:"\1F892";
+  position:absolute;
+  width:100%;
+  height:100%;
+  left: 0;
+  top: 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:#fff;
 }
 /*
 ===================================================================================
